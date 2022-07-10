@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using WebApp.Data.EmployeeDb;
+using WebApp.Data;
 using WebApp.Models;
 
 namespace WebApp.Controllers
 {
     public class EmployeesController : Controller
     {
-        private readonly Context _context;
+        private readonly EmployeedbContext _context;
 
-        public EmployeesController(Context context)
+        public EmployeesController(EmployeedbContext context)
         {
             _context = context;
         }

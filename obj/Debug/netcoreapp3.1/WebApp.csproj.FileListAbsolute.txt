@@ -146,3 +146,8 @@ D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\WebApp.csproj.CopyComplete
 D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\WebApp.dll
 D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\WebApp.pdb
 D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
+D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Create.cshtml.g.cs
+D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Delete.cshtml.g.cs
+D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Details.cshtml.g.cs
+D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Edit.cshtml.g.cs
+D:\WebApp\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs

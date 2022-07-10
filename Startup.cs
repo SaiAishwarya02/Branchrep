@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Data.EmployeeDb;
+using WebApp.Data;
 
 namespace WebApp
 {
@@ -29,6 +30,9 @@ namespace WebApp
 
             services.AddDbContext<Context>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Context")));
+
+            services.AddDbContext<EmployeedbContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("EmployeedbContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
