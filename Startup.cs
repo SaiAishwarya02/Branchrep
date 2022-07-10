@@ -9,7 +9,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using WebApp.Data.EmployeeDb;
 using WebApp.Data;
 
 namespace WebApp
@@ -28,8 +27,6 @@ namespace WebApp
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<Context>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("Context")));
 
             services.AddDbContext<EmployeedbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("EmployeedbContext")));
